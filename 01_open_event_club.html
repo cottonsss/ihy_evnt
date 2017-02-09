@@ -14,6 +14,7 @@
 <link rel="apple-touch-icon" href="http://image.club5678.com/imgs/mobile/130417/ico_ios_114.png">
 <link href="http://m.club5678.com/inc/css/common.css?ver=1472023073" rel="stylesheet" type="text/css">
 <style type="text/css">
+    body{margin:0; padding:0;}
     .wrap_open_event{position:absolute; width:100%; height:100%; top:0; left:0; margin:0; padding:0; background:#f2f2f2;}
     .evnt_header{position:relative; width:100%; height:40px; background:#254c5f;}
     .evnt_top{position:relative; width:100%; height:198px; margin:0 auto; background:#2993a3;}
@@ -21,11 +22,13 @@
     .evnt_contents{position:relative; width:100%; height:auto; background:#f2f2f2;}
 
     .evnt_header h1{font-size:18px; color:#fff; font-weight:bold; text-align:center; padding:10px 0;}
-    .evnt_header img{position:absolute; top:10px; right:14px;}
+    .evnt_header .evnt_clse{position:absolute; width:40px; height:40px; top:0; right:0;}
+    .evnt_header .evnt_clse a{display:block; top:10px; right:14px; width:40px; height:40px; background:url('http://image.club5678.com/imgs/ilheayo_job/open_evnt/btn_clse1.png') 50%  50% no-repeat; background-size:20px 20px; text-indent:-9999px;}
+    .evnt_header .evnt_clse a:active{background-color:rgba(0,0,0,0.05);}
 
     .evnt_tit img.tit_ment{margin-left:14px;}
     .evnt_tit img.tit_img{position:absolute; right:0;}
-    .evnt_tit .evnt_day{position:absolute; margin:10px 0; padding:4px 5px 3px 5px; border-radius:10px; background:#254c5f; font-size:13px; color:#fff; line-height:13px;}
+    .evnt_tit .evnt_day{position:absolute; margin:10px 0; padding:4px 10px 3px 10px; border-radius:10px; background:#254c5f; font-size:13px; color:#fff; line-height:13px;}
     .evnt_tit .evnt_txt{position:relative; top:30px;}
     .evnt_tit .evnt_txt img{display:inline-block;}
     .evnt_tit .evnt_txt p{display:inline-block; vertical-align:top; margin-top:13px; margin-left:-10px; font-size:13px; font-weight:bold; color:#fff; letter-spacing:-0.8px; line-height:17px;}
@@ -36,7 +39,7 @@
 <div class="wrap_open_evnt">
     <div class="evnt_header">
         <h1>'일해요' 출시 이벤트</h1>
-        <img src="http://image.club5678.com/imgs/ilheayo_job/open_evnt/btn_clse1.png" width="20" height="20" alt="닫기" />
+        <div class="evnt_clse"><a href="#">닫기</a></div>
     </div>
     <div class="evnt_top">
         <div class="evnt_tit">
@@ -50,6 +53,7 @@
         </div>
     </div>
     <div class="evnt_contents">
+        <div class
     </div>
 </div>
 </body>
