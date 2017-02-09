@@ -14,12 +14,12 @@
 <link rel="apple-touch-icon" href="http://image.club5678.com/imgs/mobile/130417/ico_ios_114.png">
 <link href="http://m.club5678.com/inc/css/common.css?ver=1472023073" rel="stylesheet" type="text/css">
 <style type="text/css">
-    body{margin:0; padding:0;}
+    body{margin:0; padding:0; background-color:#f2f2f2;}
     .wrap_open_event{position:absolute; width:100%; height:100%; top:0; left:0; margin:0; padding:0; background:#f2f2f2;}
     .evnt_header{position:relative; width:100%; height:40px; background:#254c5f;}
     .evnt_top{position:relative; width:100%; height:198px; margin:0 auto; background:#2993a3;}
-    .evnt_tit{position:relative; width:320px; height:auto; padding-top:15px; margin:0 auto;}
-    .evnt_contents{position:relative; width:100%; height:auto; background:#f2f2f2;}
+    .evnt_tit{position:relative; width:305px; height:auto; padding-top:15px; margin:0 auto;}
+    .evnt_contents{position:relative; width:100%; height:auto;}
 
     .evnt_header h1{font-size:18px; color:#fff; font-weight:bold; text-align:center; padding:10px 0;}
     .evnt_header .evnt_clse{position:absolute; width:40px; height:40px; top:0; right:0;}
@@ -32,6 +32,36 @@
     .evnt_tit .evnt_txt{position:relative; top:30px;}
     .evnt_tit .evnt_txt img{display:inline-block;}
     .evnt_tit .evnt_txt p{display:inline-block; vertical-align:top; margin-top:13px; margin-left:-10px; font-size:13px; font-weight:bold; color:#fff; letter-spacing:-0.8px; line-height:17px;}
+
+    .evnt_contents .give_cash{position:relative; width:90%; height:144px; left:5%; margin-top:42px; padding-top:30px; background:#2993a3; border:1px solid #28818e; box-sizing:border-box; text-align:center;}
+    .evnt_contents .give_cash img.tit_cash{position:absolute; top:-32px; left:50%; margin-left:-131px;}
+    .evnt_contents .give_cash p.write_cs{position:relative; display:inline-block; font-size:15px; font-weight:bold; letter-spacing:-0.8px; line-height:20px; color:#ffe861; padding:60px 18px 0 18px;}
+    .evnt_contents .give_cash p.write_cs span{display:block; font-weight:normal; color:#fff;}
+    .evnt_contents .give_cash p.write_cp{background:url('http://image.club5678.com/imgs/ilheayo_job/open_evnt/img_clubcash_3000.png') 50% 0 no-repeat; background-size:105px 51px;}
+    .evnt_contents .give_cash p.write_pp{background:url('http://image.club5678.com/imgs/ilheayo_job/open_evnt/img_clubcash_10000.png') 50% 0 no-repeat; background-size:105px 51px;}
+
+    .evnt_contents .method_evnt{position:relative; width:90%; height:208px; left:5%; margin-top:22px; padding-top:20px; background:#fff; border:1px solid #e2e2e2; box-sizing:border-box;}
+    .evnt_contents .method_evnt img.tit_method{position:absolute; margin-top:-32px; margin-left:-1px;}
+    .evnt_contents .method_evnt p.method_1{position:relative; margin:10px 0 10px 8px; padding-left:22px; font-size:12px; font-weight:bold; color:#494949; letter-spacing:-0.8px;}
+    .evnt_contents .method_evnt p.mtd_num_1{background:url('http://image.club5678.com/imgs/ilheayo_job/open_evnt/img_num1.png') 0 50% no-repeat; background-size:16px 16px;}
+    .evnt_contents .method_evnt p.mtd_num_2{background:url('http://image.club5678.com/imgs/ilheayo_job/open_evnt/img_num2.png') 0 50% no-repeat; background-size:16px 16px;}
+    .evnt_contents .method_evnt p.mtd_num_3{background:url('http://image.club5678.com/imgs/ilheayo_job/open_evnt/img_num3.png') 0 50% no-repeat; background-size:16px 16px;}
+    .evnt_contents .method_evnt .btn_install{position:relative; width:210px; margin-left:35px; text-align:center;}
+    .evnt_contents .method_evnt .btn_install a{display:block; padding:10px 0; font-size:16px; font-weight:bold; color:#fff; line-height:16px; letter-spacing:-0.8px; background:#254c5f; border-radius:20px;}
+    .evnt_contents .method_evnt .btn_install a:active{background-color:#1b3d4e;}
+    .evnt_contents .method_evnt .btn_join_info{position:relative; width:210px; margin-left:35px; text-align:center;}
+    .evnt_contents .method_evnt .btn_join_info a{display:block; padding:10px 0; font-size:16px; font-weight:bold; color:#fff; line-height:16px; letter-spacing:-0.8px; background:#2993a3; border-radius:20px;}
+    .evnt_contents .method_evnt .btn_join_info a:active{background-color:#237f8d;}
+
+    @media(min-width:360px){
+        .evnt_tit{position:relative; width:324px;}
+
+        .evnt_contents .method_evnt p.method_1{margin:10px 0 10px 14px; font-size:13px;}
+        .evnt_contents .method_evnt .btn_install{margin-left:50px;}
+        .evnt_contents .method_evnt .btn_join_info{margin-left:50px;}
+    }
+
+
 </style>
 </head>
 
@@ -53,7 +83,19 @@
         </div>
     </div>
     <div class="evnt_contents">
-        <div class
+        <div class="give_cash">
+            <img src="http://image.club5678.com/imgs/ilheayo_job/open_evnt/img_sub_tit1.png" class="tit_cash" width="262" height="49" alt="캐쉬지급타이틀" />
+            <p class="write_cs write_cp">구직글<span>남기면 3,000원!</span></p>
+            <p class="write_cs write_pp">구인글<span>남기면 10,000원!</span></p>
+        </div>
+        <div class="method_evnt">
+            <img src="http://image.club5678.com/imgs/ilheayo_job/open_evnt/img_sub_tit2.png" class="tit_method" width="134" height="32" alt="참여방법타이틀" />
+            <p class="method_1 mtd_num_1">일해요 앱을 설치 후 구인(구직)글 남기기!</p>
+            <div class="btn_install"><a href="#">일해요 앱(APP) 설치하기</a></div>
+            <p class="method_1 mtd_num_2">일해요에서 구인(구직)글 남긴 후 가입정보 남기기</p>
+            <div class="btn_join_info"><a href="#">일해요 가입정보 남기기</a></div>
+            <p class="method_1 mtd_num_3"><span>이벤트 참여 완료!</span> 관리자가 확인 후 선물 지급!</p>
+        </div>
     </div>
 </div>
 </body>
