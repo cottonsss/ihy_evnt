@@ -64,7 +64,7 @@
     .evnt_contents .info_evnt .btn_qna a:active{background-color:#989ea0;}
 
     .evnt_contents .info_ihy{position:relative; width:90%; height:144px; left:5%; margin-top:40px; margin-bottom:10px; background-color:#fff; border:1px solid #e2e2e2; border-radius:5px; box-sizing:border-box; text-align:center;}
-    .evnt_contents .info_ihy img{margin-top:-22px;}
+    .evnt_contents .info_ihy img{margin-top:-22px}
 
     @media(min-width:360px){
         .evnt_tit{position:relative; width:324px;}
@@ -74,6 +74,11 @@
         .evnt_contents .method_evnt .btn_join_info{margin-left:50px;}
     }
 
+    .pop_evnt_note{position:absolute; top:480px; left:50%; width:280px; height:270px; margin-left:-140px; border-radius:5px; background:#2f3c42; box-shadow:0px 0px 10px 1px rgba(0,0,0,0.8); -moz-box-shadow:0px 0px 10px 1px rgba(0,0,0,0.8); -ms-box-shadow:0px 0px 10px 1px rgba(0,0,0,0.8); -webkit-box-shadow:0px 0px 10px 1px rgba(0,0,0,0.8);}
+    .pop_evnt_note .btn_pop_clse{position:absolute; width:15px; height:15px; top:5px; right:5px; z-index:100;}
+    .pop_evnt_note .btn_pop_clse a{display:block; background:url('http://image.club5678.com/imgs/ilheayo_job/open_evnt/btn_clse2.png') no-repeat; background-size:15px 15px; text-indent:-9999px; cursor:pointer;}
+    .pop_evnt_note h1{margin:20px 0 10px 0; font-size:16px; font-weight:bold; color:#ffdc61; text-align:center;}
+    .pop_evnt_note p{padding:3px 14px; font-size:13px; color:#e8e8e8; letter-spacing:-0.8px; line-height:19px;}
 
 </style>
 </head>
@@ -115,7 +120,16 @@
             <div class="btn_qna"><a href="#">문의하기</a></div>
         </div>
         <div class="info_ihy"><img src="http://image.club5678.com/imgs/ilheayo_job/open_evnt/img_sub_tit3.png" width="300" height="162" alt="일해요매력포인트" /></div>
+    </div>
 </div>
-</body>
+<div class="pop_evnt_note">
+    <div class="btn_pop_clse"><a href="#">닫기</a></div>
+    <h1><이벤트 유의사항></h1>
+    <p>- 가입시 정보와 일치하지 않으면 이벤트 상품<br>&nbsp;&nbsp;이 지급되지 않습니다.</p>
+    <p>- 구인글, 구직글 모두 등록한 경우는 혜택이<br>&nbsp;&nbsp;큰 구인글만 인정되며, 여러 개 등록해도 1건<br>&nbsp;&nbsp;만 인정됩니다.</p>
+    <p>-  내용이 허위이거나 부실한 경우는 상품이<br>&nbsp;&nbsp;지급되지 않습니다<br>&nbsp;&nbsp;(등록 후 바로 삭제 또는 등록 후 활동 없음)</p>
+    <p>- 상품 지급은 이벤트 종료 후 00월 00일 일괄<br>&nbsp;&nbsp;지급합니다. (선지급 시 개별쪽지 안내)</p>
+</div>
 
+</body>
 </html>
